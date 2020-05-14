@@ -2,7 +2,7 @@ include "seq.mc"
 
 let foo =
   -- This is a comment
-  let s = "magic" in (*@\label{l:magic}@*)
+  let s = "magic" in
   let one = 1 in
   lam x. x
 
